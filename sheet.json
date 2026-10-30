@@ -1,0 +1,8 @@
+{
+  "html": "dungeon-scum.html",
+  "css": "dungeon-scum.css",
+  "authors": "Hlynrian",
+  "instructions": "One Roll20 character represents a party. Use the repeating Members section to add, remove and reorder individual adventurers. See README.md for installation and rule notes.",
+  "legacy": false,
+  "preview": "screenshot.png"
+}

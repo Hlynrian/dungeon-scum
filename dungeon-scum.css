@@ -1,0 +1,29 @@
+.charsheet .scum {max-width:900px; min-width:560px; margin:auto; color:#29251f; font:13px/1.4 "Helvetica Neue",Arial,sans-serif; background:#faf8f2; padding:16px; box-sizing:border-box;}
+.charsheet .scum * {box-sizing:border-box;}
+.charsheet .scum header {display:flex; gap:24px; align-items:center; justify-content:space-between; border-bottom:3px solid #775235; padding-bottom:12px; margin-bottom:12px;}
+.charsheet .scum h1 {font:bold 27px Georgia,serif; margin:0; color:#593e29;}
+.charsheet .scum .subtitle,.charsheet .scum .hint,.charsheet .scum footer {font-size:11px; color:#6b6257;}
+.charsheet .scum section {margin-bottom:12px;}
+.charsheet .scum .section-title {font-weight:bold; text-transform:uppercase; letter-spacing:1px; margin:8px 0; border-bottom:1px solid #d6c9b5; padding-bottom:5px;}
+.charsheet .scum .section-title span {float:right; text-transform:none; letter-spacing:0; font-size:11px; font-weight:normal;}
+.charsheet .scum label {display:block; margin:0; font-size:11px; font-weight:600; color:#635442;}
+.charsheet .scum input[type=text],.charsheet .scum input[type=number],.charsheet .scum select,.charsheet .scum textarea {width:100%; min-width:0; height:28px; margin:3px 0; border:1px solid #d5cbbd; border-radius:3px; background:#fffefb; color:#29251f; padding:4px 6px; font:13px Arial,sans-serif; box-shadow:none;}
+.charsheet .scum textarea {height:64px; resize:vertical;}
+.charsheet .scum .fields {display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px 12px;}
+.charsheet .scum .bonuses {grid-template-columns:repeat(4,minmax(0,1fr));}
+.charsheet .scum .member {background:#fffdf8; border:1px solid #d6c9b5; border-left:3px solid #977044; border-radius:4px; padding:8px 10px; margin:8px 0;}
+.charsheet .scum .member-top {display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:6px;}
+.charsheet .scum .member-top input {font-weight:bold;}
+.charsheet .scum .member-flags {display:flex; gap:15px; margin:4px 0 7px;}
+.charsheet .scum .check {display:flex; align-items:center; gap:5px; font-weight:normal;}
+.charsheet .scum input[type=checkbox] {margin:0;}
+.charsheet .scum button[type=roll] {font:11px Arial,sans-serif; color:#4c3828; background:#f0e9dc; border:1px solid #cbb99f; border-radius:3px; padding:5px 8px; margin:2px 3px 2px 0; text-shadow:none; box-shadow:none;}
+.charsheet .scum button[type=roll]::before {content:"";}
+.charsheet .scum button[type=roll]:hover {background:#e2d4bd;}
+.charsheet .scum button:focus-visible,.charsheet .scum summary:focus-visible {outline:2px solid #775235; outline-offset:2px;}
+.charsheet .scum details {margin-top:6px;}
+.charsheet .scum summary {font-size:11px; font-weight:bold; color:#795634; cursor:pointer; padding:4px 0;}
+.charsheet .scum details[open] > summary {margin-bottom:6px;}
+.charsheet .scum p {margin:6px 0;}
+.charsheet .scum footer {border-top:1px solid #d6c9b5; margin-top:12px; padding-top:8px;}
+@media (max-width:650px) {.charsheet .scum {min-width:0;} .charsheet .scum .fields {grid-template-columns:repeat(2,minmax(0,1fr));} .charsheet .scum .member-top {grid-template-columns:2fr 1fr;} .charsheet .scum header {flex-wrap:wrap;}}
